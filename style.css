@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+    width: 400px;
+    height: auto;
+    font-family: 'Outfit', sans-serif;
+font-family: 'Overpass', sans-serif;
+font-size: 15px;
+}
+
+.star {
+    background-color: hsla(212, 15%, 20%, 0.975);
+    border: 1px;
+    border-radius: 50px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+h1 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 30px;
+}
+
+.one, .two, .three, .four, .five {
+    background-color: hsla(212, 15%, 20%, 0.975);
+    color: hsl(217, 12%, 63%);
+    border: 1px;
+    border-radius: 50px;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+}
+
+.submit {
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    padding: 10px 130px;
+    border: 1px;
+    border-radius: 20px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.one:visited,.two:visited, .three:visited, .four:visited .five:visited {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+}
+
+.five:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
