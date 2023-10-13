@@ -43,6 +43,7 @@ h1 {
 p {
     color: hsl(217, 12%, 63%);
     margin-bottom: 30px;
+    line-height: 25px;
 }
 
 .one, .two, .three, .four, .five {
@@ -67,13 +68,13 @@ p {
     font-weight: bold;
 }
 
-.one:visited,.two:visited, .three:visited, .four:visited .five:visited {
+.one:focus, .two:focus, .three:focus, .four:focus, .five:focus {
     background-color: hsl(217, 12%, 63%);
     color: hsl(0, 0%, 100%);
     font-weight: bold;
 }
 
-.five:hover {
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover {
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
     cursor: pointer;
