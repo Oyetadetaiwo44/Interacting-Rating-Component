@@ -24,8 +24,8 @@ body {
     width: 400px;
     height: auto;
     font-family: 'Outfit', sans-serif;
-font-family: 'Overpass', sans-serif;
-font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
 }
 
 .star {
@@ -66,6 +66,7 @@ p {
     margin-top: 10px;
     letter-spacing: 2px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .one:focus, .two:focus, .three:focus, .four:focus, .five:focus {
